@@ -8,28 +8,18 @@ import Gallery from './components/works/Gallery';
 import Contact from './components/Contact';
 import Testimonial from './components/testimonial/Testimonial'
 import { useState, useEffect } from "react";
-import PacmanLoader from "react-spinners/PacmanLoader";
+
 
 
 
 
 function App() {
-  const[loading, setLoading]=useState(false)
-  useEffect(()=>{
-setLoading(true)
-setTimeout(()=>{
-  setLoading(false)
-},1000)
-  },[])
+
+
   return (
    
-    <div className='loader11'>
-      
-      { loading?
-      
-        <PacmanLoader color={"#D00218"} loading={loading} size={100}aria-label="Loading Spinner" data-testid="loader" />:
-       
-      <div>
+    
+      <div className='app'>
       <Navbar/>
       <Hero/>
       <AboutMe/>
@@ -38,9 +28,7 @@ setTimeout(()=>{
       <Testimonial/>
       <Contact/>
       </div>
-      }
-     
-    </div>
+   
   );
 }
 
