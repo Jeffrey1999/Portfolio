@@ -1,12 +1,24 @@
-import React from 'react'
+
+import React,{useEffect} from 'react'
 import { FaCss3, FaHtml5, FaReact } from 'react-icons/fa';
 import image5 from "../../src/assets/jeff5.JPG";
 import {SiJavascript} from "react-icons/si"
+import { TypeAnimation } from 'react-type-animation';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const AboutMe = () => {
+  useEffect(()=>{
+    AOS.init({
+      duration: 1000, // values from 0 to 3000, with step 50ms
+    });
+
+  },[])
+
+  
   return (
     <div>
-  <section class="text-gray-600 body-font" id='about'>
+  <section class="text-gray-600 body-font" id='about' data-aos="flip-left">
   <div class="container px-5 py-2 mx-auto flex flex-col">
     <div class="lg:w-4/6 mx-auto">
       <h1 class="rounded-lg h-24 font-black text-5xl flex justify-center mt-3 p-5 text-center"> About <span className='bg-teal-800 text-gray-100 ml-4 pr-9 hover:bg-gray-800 hover:scale-125' >Me</span> </h1>

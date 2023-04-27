@@ -34,8 +34,8 @@ const Data = [
       category: "experience",
       icon: <FaBriefcase className='text-teal-800 text-2xl'/>,
       year: "2019 - present",
-      title: "Software Lead Instructor",
-      desc: "CodeDesk Training--Amfex Training Hub, Sunyani.",
+      title: "Coding Instructor",
+      desc: "Amfex Training Hub, Sunyani.",
     },
     {
       id: 5,

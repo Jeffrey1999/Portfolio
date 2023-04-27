@@ -22,13 +22,17 @@ setTimeout(()=>{
 },1000)
   },[])
   return (
-   
-    <div className='loader11'>
-      
-      { loading?
-      
-        <PacmanLoader color={"#D00218"} loading={loading} size={100}aria-label="Loading Spinner" data-testid="loader" />:
-       
+    <div className='loader1'>
+      {
+        loading?
+        <PacmanLoader 
+        color={"#D00218"}
+        loading={loading}
+        // cssOverride={override}
+        size={100}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />:
       <div>
       <Navbar/>
       <Hero/>

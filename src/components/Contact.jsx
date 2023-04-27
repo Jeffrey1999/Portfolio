@@ -1,17 +1,25 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import image2 from "../../src/assets/jeff4.JPG";
 import { FaInstagram,FaLinkedin,FaTwitter } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Contact = () => {
+  useEffect(()=>{
+    AOS.init({
+      duration: 1000, // values from 0 to 3000, with step 50ms
+    });
+
+  },[])
   return (
     <div>
- <section class="text-gray-600 body-font relative">
+ <section class="text-gray-600 body-font relative" id='contact'>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
-      <h1 class=" text-4xl sm:text-3x font-bold title-font mb-4 text-gray-900">Contact <span className='bg-teal-800 text-gray-100 pr-10 hover:bg-gray-800 hover:scale-125 '> Me</span></h1>
+      <h1 class=" text-5xl sm:text-3x font-bold title-font mb-4 text-gray-900">Contact <span className='bg-teal-800 text-gray-100 pr-10 hover:bg-gray-800 hover:scale-125 '> Me</span></h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Let's Talk about everything.</p>
     </div>
-    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+    <div class="lg:w-1/2 md:w-2/3 mx-auto" data-aos="zoom-out-down" >
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
           <div class="relative">

@@ -14,7 +14,7 @@ const ExperienceCard = (props) => {
               <div class="w-px h-full bg-gray-300"></div>
             </div>
         
-            <div class="pb-8 ">
+            <div class="pb-8">
               <p class="text-gray-300 text-xs">{props.year}</p>
               <p class="mb-1 text-xl font-bold text-gray-600">{props.title}</p>
               <p class="text-gray-700">
