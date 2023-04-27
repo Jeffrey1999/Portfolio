@@ -64,7 +64,17 @@ const Hero = () => {
 </div>
 
 
+    
 </div>
+<div class="mb-12 flex w-full md:mb-16 lg:w-3/5 lg:mt-16">
+        <div class="relative top-12 left-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:top-16 md:left-16 lg:ml-0">
+          <img src={image1} loading="lazy" alt="Photo by Kaung Htet" class="h-full w-full object-cover object-center" />
+        </div>
+
+        <div class="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
+          <img src={image2} loading="lazy" alt="Photo by Manny Moreno" class="h-full w-full object-cover object-center" />
+        </div>
+      </div>
 </div>
 
 <div class="flex flex-col md:flex-row justify-between items-center gap-8">

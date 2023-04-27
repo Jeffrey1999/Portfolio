@@ -13,22 +13,22 @@ const Navbar = () => {
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
       <ul className="menu menu-vertical px-1">
-      <li><a>Home</a></li>
-      <li><a>About</a></li>
-      <li><a>Education</a></li>
-      <li><a>Project</a></li>
-      <li><a>Contact</a></li>
+      <li><a href='/'>Home</a></li>
+      <li><a href='#about'>About</a></li>
+      <li><a href='#education'>Education</a></li>
+      <li><a href='#project'>Project</a></li>
+      <li><a href='#contact'>Contact</a></li>
     
       
     </ul>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">Jeffrey.</a>
+    <a className="btn btn-ghost normal-case text-xl ml-20">Jeffrey.</a>
   </div>
-  <div className="navbar-end hidden lg:flex">
+  <div className="navbar-end hidden lg:flex mr-20">
     <ul className="menu menu-horizontal px-1">
-      <li><a href='/' spy={true} smooth={true} duration={500}  >Home</a></li>
-      <li><a href='#about'spy={true} smooth={true} duration={500} >About</a></li>
+      <li><a href='/'>Home</a></li>
+      <li><a href='#about'>About</a></li>
       <li><a href='#education'>Education</a></li>
       <li><a href='#project'>Project</a></li>
       <li><a href='#contact'>Contact</a></li>

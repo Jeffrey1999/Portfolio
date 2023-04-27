@@ -18,7 +18,7 @@ const Experience = () => {
     <div class="bg-white py-6 sm:py-8 lg:py-12" id="education">
       <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
         <div class="mb-10 md:mb-16">
-          <h2 class="text-gray-800 text-5xl lg:text-5xl font-bold text-center mb-4 md:mb-6">
+          <h2 class="text-gray-800 text-2xl lg:text-5xl font-bold text-center mb-4 md:mb-6">
             Education and  <span className="bg-teal-800 text-gray-100 pr-9 pt-4 pb-4 hover:bg-gray-800 ">Experience</span>
           </h2>
 
