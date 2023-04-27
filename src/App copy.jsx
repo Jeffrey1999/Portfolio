@@ -14,25 +14,22 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 
 
 function App() {
+
   const[loading, setLoading]=useState(false)
+
   useEffect(()=>{
 setLoading(true)
 setTimeout(()=>{
   setLoading(false)
 },1000)
   },[])
+  
   return (
-    <div className='loader1'>
-      {
-        loading?
-        <PacmanLoader 
-        color={"#D00218"}
-        loading={loading}
-        // cssOverride={override}
-        size={100}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />:
+   
+    <div>
+      
+      { loading? <PacmanLoader color={"#115e59"} loading={loading} size={100}  aria-label="Loading Spinner" data-testid="loader"/>:
+       
       <div>
       <Navbar/>
       <Hero/>
