@@ -11,10 +11,10 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const Testimonial = () => {
   return (
     <div>
-      <section class="text-gray-400 bg-gray-900 body-font">
+      <section class="text-gray-400 bg-gray-900  body-font">
       
   <div class="container px-5 py-24 mx-auto">
-  <h2 class="text-teal-800 text-2xl lg:text-5xl font-bold text-center mt-20s md:mb-6"> Clients <span className='bg-teal-800 text-gray-100  pr-9'>& Reviews</span></h2>
+  <h2 class="text-gray-800 text-2xl lg:text-5xl font-bold text-center mt-20s md:mb-6"> Clients <span className='bg-teal-800 text-gray-100  pr-9'>& Reviews</span></h2>
   
   <div className='flex justify-center pt-9 pb-10'>
     <FaQuoteLeft className='text-gray-100 text-6xl '/> </div>

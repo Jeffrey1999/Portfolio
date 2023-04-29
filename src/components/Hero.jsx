@@ -87,10 +87,10 @@ const Hero = () => {
 <span class="w-12 h-px bg-teal-800"></span>
 
 <div class="flex gap-4">
-  <a href="#" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl">
+  <a href="https://instagram.com/asamoah1402?igshid=YmMyMTA2M2Y=" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl">
     <FaInstagram/>
   </a>
-  <a href="#" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl"> <FaLinkedin/></a>
+  <a href="https://www.linkedin.com/in/asamoah-jeffrey-a7154218a" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl"> <FaLinkedin/></a>
   <a href="#" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl">
     <FaTwitter/>
   </a>

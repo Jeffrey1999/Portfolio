@@ -48,16 +48,16 @@ const Contact = () => {
         </div>
         
         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <a class="text-teal-800">asamoahjeffrey77@gmail.com</a>
+          <a href="mailto:asamoahjeffrey77@gmail.com"class="text-teal-800">asamoahjeffrey77@gmail.com</a>
           <p class="leading-normal my-5">(+233) 50 930 3861
             <br/>All Rights Reserved
           </p>
           <span class="inline-flex">
           <div class="flex gap-4">
-          <a href="#" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl">
+          <a  href="https://instagram.com/asamoah1402?igshid=YmMyMTA2M2Y=" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl">
             <FaInstagram/>
           </a>
-          <a href="#" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl"> <FaLinkedin/></a>
+          <a href="https://www.linkedin.com/in/asamoah-jeffrey-a7154218a" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl"> <FaLinkedin/></a>
           <a href="#" target="_blank" class="text-teal-800 hover:text-gray-400 active:text-gray-600 transition duration-100 text-2xl">
             <FaTwitter/>
           </a>

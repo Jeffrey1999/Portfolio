@@ -23,9 +23,7 @@ const Experience = () => {
           </h2>
 
           <p class="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-            This is a section of some simple filler text, also known as
-            placeholder text. It shares some characteristics of a real written
-            text but is random or otherwise generated.
+           This section contains summary of my Education and Releant Experience 
           </p>
         </div>
       </div>
