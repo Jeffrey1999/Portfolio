@@ -12,7 +12,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 const Hero = () => {
   useEffect(()=>{
     AOS.init({
-      duration: 1000, // values from 0 to 3000, with step 50ms
+      duration: 3000, // values from 0 to 3000, with step 50ms
     });
 
   },[])
@@ -53,7 +53,7 @@ const Hero = () => {
    and I graduated from the University of Energy and Natural Resources in 2021 with a degree in Computer Science.</p>
 
 
-<div class="sm:flex sm:gap-4 ">
+<div class="sm:flex sm:gap-4 " >
 
 
 {/* <a href='../../src/assets/num.pdf' download={true} >  */}
@@ -66,13 +66,13 @@ const Hero = () => {
 
     
 </div>
-<div class="mb-12 flex w-full md:mb-16 lg:w-3/5 lg:mt-16">
-        <div class="relative top-12 left-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:top-16 md:left-16 lg:ml-0">
-          <img src={image1} loading="lazy" alt="Photo by Kaung Htet" class="h-full w-full object-cover object-center" />
+<div class="mb-12 flex w-full md:mb-16 lg:w-3/5 lg:mt-16" >
+        <div class="relative top-12 left-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:top-16 md:left-16 lg:ml-0" data-aos="fade-up-left">
+          <img src={image1} loading="lazy" alt="Coding Teaching Class" class="h-full w-full object-cover object-center" />
         </div>
 
-        <div class="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
-          <img src={image2} loading="lazy" alt="Photo by Manny Moreno" class="h-full w-full object-cover object-center" />
+        <div class="overflow-hidden rounded-lg bg-gray-100 shadow-lg" data-aos="fade-up-right" >
+          <img src={image2} loading="lazy" alt="Coding Teaching Class 2" class="h-full w-full object-cover object-center" />
         </div>
       </div>
 </div>
